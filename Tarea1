@@ -1,0 +1,22 @@
+# Tarea1-String-Madrid-Murillo-2258
+Tarea1
+
+ Scanner teclado = new Scanner(System.in);
+
+        String entrada;
+
+        System.out.println("Ingresa tu nombre, profesion y nacionalidad: ");
+        entrada = teclado.nextLine();
+
+        String [] separadoTodo = entrada.split(" ");
+
+        String nombre = separadoTodo[0];
+        String profesion = separadoTodo[1];
+        String nacionalidad = separadoTodo[2];
+
+        System.out.println("Nombre: " + nombre);
+        System.out.println("Profesion: " + profesion);
+        System.out.println("Nacionalidad: " + nacionalidad);
+
+    }
+}
